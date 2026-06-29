@@ -8971,3 +8971,14 @@ a:hover {
 .services h3 {
     margin-top: 15px;
 }
+
+.nav-item.active .nav-link {
+  font-weight: 700;
+  color: #315343 !important;
+}
+
+.store-card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
