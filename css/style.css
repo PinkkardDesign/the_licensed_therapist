@@ -8851,9 +8851,19 @@ a:hover {
   color: var(--joy-text) !important;
 }
 
-/* Navbar only */
-.ftco_navbar {
-  background: var(--joy-ivory) !important;
+/* Navbar */
+#ftco-navbar {
+    background: #E8DDCC !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+.ftco-navbar-light{
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+.ftco-navbar-light .navbar-nav > .active > .nav-link{
+    color:#355B49 !important;
+    font-weight:600;
 }
 
 .ftco_navbar .navbar-brand {
@@ -8897,11 +8907,15 @@ a:hover {
 }
 
 .site-logo {
-  width: 75px;
-  height: 75px;
-  object-fit: contain;
-  margin-right: 12px;
+    height: 112px;
+    width: auto;
+    margin-right: 16px;
+  padding: 6px;
+  border-radius: 50%;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,.12));
 }
+
+
 
 .brand-text {
   font-size: 28px;
@@ -8982,3 +8996,37 @@ a:hover {
     max-width: 420px;
     margin: 0 auto;
 }
+
+.btn-primary {
+    border-color: #315343;
+}
+
+.btn-primary:hover {
+    border-color: #315343;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(49, 83, 67, .25);
+}
+
+.ftco-footer-widget h2,
+.ftco-footer-widget h1 {
+    font-size: 34px;
+}
+
+.btn-contact {
+    color: #c8a96a;
+    border: 2px solid #c8a96a;
+    background: transparent;
+}
+
+.btn-contact:hover {
+    background: #c8a96a;
+    color: #fff;
+}
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+}
+
