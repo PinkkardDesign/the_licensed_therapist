@@ -9030,3 +9030,7 @@ a:hover {
     align-items:center;
 }
 
+.logo-404 {
+    max-width: 220px;
+    filter: drop-shadow(0 8px 18px rgba(0,0,0,0.35));
+}
