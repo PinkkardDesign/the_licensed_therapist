@@ -9034,3 +9034,55 @@ a:hover {
     max-width: 220px;
     filter: drop-shadow(0 8px 18px rgba(0,0,0,0.35));
 }
+
+/* Mobile navbar fix */
+@media (max-width: 991.98px) {
+  #ftco-navbar .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #ftco-navbar .navbar-brand {
+    max-width: calc(100% - 95px);
+    margin-right: 0;
+    padding: 5px 0;
+    overflow: hidden;
+  }
+
+  #ftco-navbar .site-logo {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    object-fit: contain;
+  }
+
+  #ftco-navbar .brand-text {
+    font-size: 1.1rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    white-space: normal;
+  }
+
+  #ftco-navbar .navbar-toggler {
+    flex-shrink: 0;
+    margin-left: auto;
+    padding: 6px 8px;
+    color: #315343 !important;
+    border-color: #315343 !important;
+  }
+}
+
+/* Extra small phones (iPhone SE, etc.) */
+@media (max-width: 480px) {
+  #ftco-navbar .site-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  #ftco-navbar .brand-text {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+  }
+}
